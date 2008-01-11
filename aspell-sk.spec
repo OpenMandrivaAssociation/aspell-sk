@@ -11,7 +11,7 @@
 Summary:       Slovak files for aspell
 Name:          aspell-%{languagecode}
 Version:       0.52.0
-Release:       %mkrel 3
+Release:       %mkrel 4
 Group:         System/Internationalization
 Source:        ftp://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/aspell-%{languagecode}-%{src_ver}.tar.bz2
 URL:           http://aspell.net/
