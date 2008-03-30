@@ -1,7 +1,7 @@
 %define _enable_debug_packages %{nil}
 %define debug_package          %{nil}
 
-%define src_ver 0.52-0
+%define src_ver 2.00-0
 %define languagelocal slovak
 %define languageeng slovak
 %define languageenglazy Slovak
@@ -10,10 +10,10 @@
 
 Summary:       Slovak files for aspell
 Name:          aspell-%{languagecode}
-Version:       0.52.0
-Release:       %mkrel 5
+Version:       2.00.0
+Release:       %mkrel 1
 Group:         System/Internationalization
-Source:        ftp://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/aspell-%{languagecode}-%{src_ver}.tar.bz2
+Source:        ftp://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/aspell6-%{languagecode}-%{src_ver}.tar.bz2
 URL:           http://aspell.net/
 License:	   GPL
 BuildRoot:     %{_tmppath}/%{name}-%{version}-root
@@ -38,7 +38,7 @@ A Slovak dictionary for use with aspell, a spelling checker.
 
 
 %prep
-%setup -q -n %{name}-%{src_ver}
+%setup -q -n aspell6-sk-%{src_ver}
 
 %build
 
