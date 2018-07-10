@@ -11,7 +11,7 @@
 Summary:	Slovak files for aspell
 Name:		aspell-%{languagecode}
 Version:	2.01.2
-Release:	13
+Release:	14
 Group:		System/Internationalization
 License:	GPLv2
 Url:		http://aspell.net/
