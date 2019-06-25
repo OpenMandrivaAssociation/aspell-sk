@@ -10,7 +10,7 @@
 
 Summary:	Slovak files for aspell
 Name:		aspell-%{languagecode}
-Version:	2.01.2
+Version:	2.02
 Release:	15
 Group:		System/Internationalization
 License:	GPLv2
