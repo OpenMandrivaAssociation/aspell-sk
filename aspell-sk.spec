@@ -14,7 +14,7 @@ Version:	2.02.0
 Release:	2
 Group:		System/Internationalization
 License:	GPLv2
-Url:		http://aspell.net/
+Url:		https://aspell.net/
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/aspell6-%{languagecode}-%{src_ver}.tar.bz2
 
 BuildRequires:	aspell >= 0.50
